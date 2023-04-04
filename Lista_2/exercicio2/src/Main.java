@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int contador = 0, numeroFichas = 3;
+        int contador = 0, numeroFichas = 20;
         double somaSalario = 0.0, mediaSalario = 0.0, somaFilhos = 0.0, mediaFilhos = 0.0;
         double maiorSalario = 0.0;
 
