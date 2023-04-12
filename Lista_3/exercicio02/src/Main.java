@@ -3,19 +3,19 @@ public class Main {
         Musica musica1 = new Musica();
         musica1.nome = "Imensurável";
         musica1.duracaoEmSegundos = 373;
-        musica1.popularidade = 5;
+        musica1.popularidade = 10;
         musica1.genero = "Gospel";
 
         Musica musica2 = new Musica();
         musica2.nome = "Depois da Cruz";
         musica2.duracaoEmSegundos = 293;
-        musica2.popularidade = 1;
+        musica2.popularidade = 5;
         musica2.genero = "Gospel";
 
         Musica musica3 = new Musica();
         musica3.nome = "Autor da Vida";
         musica3.duracaoEmSegundos = 296;
-        musica3.popularidade = 10;
+        musica3.popularidade = 1;
         musica3.genero = "Gospel";
 
         Album album = new Album();
@@ -28,8 +28,8 @@ public class Main {
         Musica musicaMaiorPopularidade = album.getMusicaMaiorPopularidade();
         Musica musicaMenorDuracao = album.getMusicaMenorDuracao();
 
-        System.out.println(musicaMaiorPopularidade.nome);
-        System.out.println(musicaMenorDuracao.nome);
+        System.out.println("A música com a maior popularidade é: " +musicaMaiorPopularidade.nome);
+        System.out.println("A música com a menor duração em segundos é: " + musicaMenorDuracao.nome);
     }
 
 }
