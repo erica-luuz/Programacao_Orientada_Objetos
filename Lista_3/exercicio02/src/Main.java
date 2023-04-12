@@ -28,7 +28,7 @@ public class Main {
         Musica musicaMaiorPopularidade = album.getMusicaMaiorPopularidade();
         Musica musicaMenorDuracao = album.getMusicaMenorDuracao();
 
-        System.out.println("A música com a maior popularidade é: " +musicaMaiorPopularidade.nome);
+        System.out.println("A música com a maior popularidade é: " + musicaMaiorPopularidade.nome);
         System.out.println("A música com a menor duração em segundos é: " + musicaMenorDuracao.nome);
     }
 

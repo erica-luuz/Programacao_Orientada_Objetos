@@ -12,19 +12,19 @@ public class Album {
         for (int i = 0; i < musicas.size(); i++) {
             if (musicas.get(i).popularidade > maiorPopularidade) {
                 maiorPopularidade = musicas.get(i).popularidade;
-                index = 1;
+                index = i;
             }
         }
         return musicas.get(index);
     }
 
     public Musica getMusicaMenorDuracao() {
-        int menorDuracao = 0;
+        int menorDuracao = Integer.MAX_VALUE;    // maximo valor da variável
         int index = 0;
         for (int i = 0; i < musicas.size(); i++) {
-            if (musicas.get(i).duracaoEmSegundos > menorDuracao) {
+            if (musicas.get(i).duracaoEmSegundos < menorDuracao) {
                 menorDuracao = musicas.get(i).duracaoEmSegundos;
-                index = 1;
+                index = i;
             }
         }
         return musicas.get(index);
