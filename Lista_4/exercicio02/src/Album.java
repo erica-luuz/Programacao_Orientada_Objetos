@@ -6,15 +6,15 @@ public class Album {
 
     private ArrayList<Musica> musicas = new ArrayList<>();
     public Album(){}
-    public Album(String nome, String nomeArtista, ArrayList<Musica>musicas){
+    public Album(String nome, String nomeArtista, ArrayList musicas){
         this.nome = nome;
         this.nomeArtista = nomeArtista;
-        this.<Musica>musicas = Musica;
+        this.musicas = musicas;
     }
     public String getNome(){
         return this.nome;
     }
-    public int getNomeArtista(){
+    public String getNomeArtista(){
         return this.nomeArtista;
     }
     public void setNome(String nome) {
@@ -22,5 +22,13 @@ public class Album {
     }
     public void setNomeArtista(String nomeArtista) {
         this.nomeArtista = nomeArtista;
+    }
+
+    public ArrayList<Musica> getMusicas() {
+        return this.musicas;
+    }
+
+    public void setMusicas(ArrayList<Musica> musicas) {
+        this.musicas = musicas;
     }
 }

@@ -9,12 +9,12 @@ public class Mapa {
 
     public Mapa(){}
 
-    public Mapa(String nome, int altura, int largura, ArrayList<Inimigo>inimigos, ArrayList herois){
+    public Mapa(String nome, int altura, int largura, ArrayList inimigos, ArrayList herois){
         this.nome = nome;
         this.altura = altura;
         this.largura = largura;
-        this.<Inimigo>inimigos = inimigos;
-        this.<Heroi>herois = herois;
+        this.inimigos = inimigos;
+        this.herois = herois;
     }
     public String getNome() {
         return this.nome;
@@ -35,6 +35,27 @@ public class Mapa {
         this.largura = largura;
     }
 
+    public ArrayList<Inimigo> getInimigos() {
+        return inimigos;
+    }
+
+    public void setInimigos(ArrayList<Inimigo> inimigos) {
+        this.inimigos = inimigos;
+    }
+
+    public ArrayList<Heroi> getHerois() {
+        return herois;
+    }
+
+    public void setHerois(ArrayList<Heroi> herois) {
+        this.herois = herois;
+    }
 }
-// erros na linha 16,17
+
+//public ArrayList<String> getAcessorios() {
+//        return acessorios;
+//    }
 //
+//    public void setAcessorios(ArrayList<String> acessorios) {
+//        this.acessorios = acessorios;
+//    }
