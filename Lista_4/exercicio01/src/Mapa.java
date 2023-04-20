@@ -5,11 +5,11 @@ public class Mapa {
     private int altura;
     private int largura;
     private ArrayList<Inimigo> inimigos = new ArrayList<>();
-    private ArrayList<Heroi>herois = new ArrayList<>();
+    private ArrayList<Heroi> herois = new ArrayList<>();
 
     public Mapa(){}
 
-    public Mapa(String nome, int altura, int largura, ArrayList inimigos, ArrayList herois){
+    public Mapa(String nome, int altura, int largura, ArrayList<Inimigo> inimigos, ArrayList<Heroi> herois){
         this.nome = nome;
         this.altura = altura;
         this.largura = largura;
@@ -52,8 +52,8 @@ public class Mapa {
     }
 }
 
-//public ArrayList<String> getAcessorios() {
-//        return acessorios;
+//public ArrayList<String> getHerois() {
+//        return herois;
 //    }
 //
 //    public void setAcessorios(ArrayList<String> acessorios) {
