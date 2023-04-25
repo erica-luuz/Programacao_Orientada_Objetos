@@ -1,32 +1,36 @@
 public class Heroi {
-    private int idHeroi;
+    private int id;
     private String nome;
     private int quantidadeDeMoedasDeOuro;
-    private Grupo herois, totalMoedasDeOuro;
 
-    public Heroi(){};
-    public Heroi(int idHeroi, String nome, int quantidadeDeMoedasDeOuro){
-        this.idHeroi = idHeroi;
+    public Heroi() {
+    }
+    public Heroi(int id, String nome, int quantidadeDeMoedasDeOuro) {
+        this.id = id;
         this.nome = nome;
         this.quantidadeDeMoedasDeOuro = quantidadeDeMoedasDeOuro;
     }
-    public int getIdHeroi() {
-        return this.idHeroi;
-    }
-    public void setIdHeroi(int id) {
-        this.idHeroi = idHeroi;
+
+    public int getId() {
+        return id;
     }
 
-    public  static String getNome() {  //adicionei static para ver se melhora
-        return this.nome;
+    public void setId(int id) {
+        this.id = id;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
 
     public int getQuantidadeDeMoedasDeOuro() {
-        return this.quantidadeDeMoedasDeOuro;
+        return quantidadeDeMoedasDeOuro;
     }
+
     public void setQuantidadeDeMoedasDeOuro(int quantidadeDeMoedasDeOuro) {
         this.quantidadeDeMoedasDeOuro = quantidadeDeMoedasDeOuro;
     }

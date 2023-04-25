@@ -1,7 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        Heroi heroi = new Heroi(01,"Superman",5);
-        heroi.adicionarHeroi(new heroi(2, "blablabla", 4));
-        System.out.println(herois[0]);
+        Heroi lolo = new Heroi(01,"Lorito",10);
+        System.out.println(lolo.getNome());
+
+        Grupo neve = new Grupo();
+
+        neve.adicionarHeroi(new Heroi(01,"Cyborg",10));
+        neve.adicionarHeroi(new Heroi(02,"Superman",10));
+        neve.adicionarHeroi(new Heroi(03,"Flash",10));
+        neve.adicionarHeroi(new Heroi(04,"Homem-aranha",10));
+
     }
 }
