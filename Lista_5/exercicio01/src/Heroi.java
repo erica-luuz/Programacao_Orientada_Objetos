@@ -1,3 +1,4 @@
+
 public class Heroi {
     private int id;
     private String nome;
@@ -35,3 +36,4 @@ public class Heroi {
         this.quantidadeDeMoedasDeOuro = quantidadeDeMoedasDeOuro;
     }
 }
+
