@@ -23,17 +23,11 @@ public abstract class Veiculo {
         this.setVelocidadeAtual(getVelocidadeAtual() - 5);
         System.out.println("Você esta desacelerando!! " + this.getVelocidadeAtual() + " Km");
     }
-    public void ligarFarol(Boolean estaComfarolLigado){
-        if (estaComfarolLigado){
-            this.setEstaComfarolLigado(estaComfarolLigado);
-            System.out.println("Farol ligado!!!");
-        }else {
-            System.out.println("O farol esta desligado!!!");
-        }
-
+    public void ligarFarol(){
+        this.setEstaComfarolLigado(true);
+        System.out.println("Farol ligado!!!");
     }
     //Metodos abstratos
-    //abstract void utilizarHabilidadeEspecial();
     public abstract void utilizarHabilidadeEspecial();
 
     //Metodos Especiais

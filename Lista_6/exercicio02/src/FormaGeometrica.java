@@ -1,3 +1,4 @@
 public interface FormaGeometrica {
-    public abstract void calcularArea();
+    public Double calcularArea(Double base, Double altura);
+
 }

@@ -5,7 +5,7 @@ public class Main {
         gol.utilizarHabilidadeEspecial();
         gol.acelerar();
         gol.acelerar();
-        gol.ligarFarol(false);
+        gol.ligarFarol();
         bis.utilizarHabilidadeEspecial();
 
 
