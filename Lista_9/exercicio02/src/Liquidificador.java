@@ -1,6 +1,5 @@
 public class Liquidificador<T extends Alimento>{
     private T alimento;
-
     public void bater(T alimento){
         System.out.println("O alimento foi batido");
     }

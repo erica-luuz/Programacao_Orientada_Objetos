@@ -1,4 +1,4 @@
-public class Banana <T> implements Alimento{
+public class Banana implements Alimento{
     private String banana;
 
     public String getBanana() {
@@ -8,4 +8,5 @@ public class Banana <T> implements Alimento{
     public void setBanana(String banana) {
         this.banana = banana;
     }
+
 }

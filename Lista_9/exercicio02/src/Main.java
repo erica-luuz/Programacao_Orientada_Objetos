@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Liquidificador liquidificador = new Liquidificador();
+        Liquidificador<Banana>liquidificador = new Liquidificador<>();
+        liquidificador.setAlimento(new Banana());
         liquidificador.bater(liquidificador.getAlimento());
+
     }
 }
