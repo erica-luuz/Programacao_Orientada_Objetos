@@ -21,6 +21,3 @@ public class Mapa {
         return inimigos.get(index);
     }
 }
-//2.32 min array list
-// 2.40 interessante tambem
-//3,25

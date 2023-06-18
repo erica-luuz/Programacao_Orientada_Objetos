@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7e3e69-433b-44ea-b965-195f82b92530" name="Changes" comment="" />
+    <list default="true" id="5a7e3e69-433b-44ea-b965-195f82b92530" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../exercicio01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/exercicio01/out/production/exercicio01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_3/exercicio01/out/production/exercicio01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/exercicio01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_3/exercicio01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/exercicio01/src/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_3/exercicio01/src/Mapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/exercicio02/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_3/exercicio02/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

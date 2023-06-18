@@ -23,8 +23,7 @@ public class Main {
 
             somaFilhos = somaFilhos + qtdaFilhos;
             mediaFilhos = somaFilhos / numeroFichas;
-
-
+            
         }
         System.out.println("A média dos Salários é R$ " + mediaSalario);
         System.out.println("A média do números de filhos é:  " + mediaFilhos);

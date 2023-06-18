@@ -10,6 +10,5 @@ public class Main {
         fabrica.adicionarOperador(new OperadorDePrensa(3, "Fagundes"));
 
         fabrica.iniciarExpediente();
-        //2,58 video
     }
 }

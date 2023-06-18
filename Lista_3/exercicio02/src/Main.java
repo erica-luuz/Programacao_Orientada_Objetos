@@ -31,5 +31,4 @@ public class Main {
         System.out.println("A música com a maior popularidade é: " + musicaMaiorPopularidade.nome);
         System.out.println("A música com a menor duração em segundos é: " + musicaMenorDuracao.nome);
     }
-
 }

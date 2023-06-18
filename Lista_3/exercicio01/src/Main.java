@@ -1,10 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        //Heroi heroi1 = new Heroi();
-        //heroi1.nome = "Chapolyn Colorado";
-
-        //Heroi heroi2 = new Heroi();
-        //heroi2.nome = "Gato Félix";
 
         Inimigo inimigo1 = new Inimigo();
         inimigo1.nome = "Tripa Seca";
@@ -30,7 +25,5 @@ public class Main {
         Inimigo inimigoDeMaiorAtaque = mapa.getInimigoMaiorAtaque();
 
         System.out.println(inimigoDeMaiorAtaque.nome);
-
-
     }
 }

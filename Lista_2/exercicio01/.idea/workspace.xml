@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31d8e9c2-5237-4201-bf5f-250ec201afaf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../exercicio2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio2/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercicio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/exercicio01/out/production/exercicio01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_3/exercicio01/out/production/exercicio01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/exercicio01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_3/exercicio01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/exercicio01/src/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_3/exercicio01/src/Mapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/exercicio02/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_3/exercicio02/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
